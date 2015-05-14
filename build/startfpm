@@ -1,0 +1,137 @@
+#! /bin/sh
+
+fpm_BIN=/usr/local/src/fpmcrowd/build/fpmcrowd
+fpm_CONF=/usr/local/src/fpmcrowd/build/fpmcrowd.conf
+fpm_PID=/usr/local/src/fpmcrowd/build/fpmcrowd.pid
+
+fpm_opts="--fpm-config $fpm_CONF"
+
+wait_for_pid () {
+	try=0
+
+	while test $try -lt 35 ; do
+
+		case "$1" in
+			'created')
+			if [ -f "$2" ] ; then
+				try=''
+				break
+			fi
+			;;
+
+			'removed')
+			if [ ! -f "$2" ] ; then
+				try=''
+				break
+			fi
+			;;
+		esac
+
+		echo -n .
+		try=`expr $try + 1`
+		sleep 1
+
+	done
+
+}
+
+case "$1" in
+	start)
+		echo -n "Starting fpmcrowd "
+
+		$fpm_BIN --fpm $fpm_opts
+
+		if [ "$?" != 0 ] ; then
+			echo " failed"
+			exit 1
+		fi
+
+		wait_for_pid created $fpm_PID
+
+		if [ -n "$try" ] ; then
+			echo " failed"
+			exit 1
+		else
+			echo " done"
+		fi
+	;;
+
+	stop)
+		echo -n "Shutting down fpm "
+
+		if [ ! -r $fpm_PID ] ; then
+			echo "warning, no pid file found - fpm is not running ?"
+			exit 1
+		fi
+
+		kill -TERM `cat $fpm_PID`
+
+		wait_for_pid removed $fpm_PID
+
+		if [ -n "$try" ] ; then
+			echo " failed"
+			exit 1
+		else
+			echo " done"
+		fi
+	;;
+
+	quit)
+		echo -n "Gracefully shutting down fpmcrowd "
+
+		if [ ! -r $fpm_PID ] ; then
+			echo "warning, no pid file found - fpm is not running ?"
+			exit 1
+		fi
+
+		kill -QUIT `cat $fpm_PID`
+
+		wait_for_pid removed $fpm_PID
+
+		if [ -n "$try" ] ; then
+			echo " failed"
+			exit 1
+		else
+			echo " done"
+		fi
+	;;
+
+	restart)
+		$0 stop
+		$0 start
+	;;
+
+	reload)
+
+		echo -n "Reload service fpmcrowd "
+
+		if [ ! -r $fpm_PID ] ; then
+			echo "warning, no pid file found - fpm is not running ?"
+			exit 1
+		fi
+
+		kill -USR2 `cat $fpm_PID`
+
+		echo " done"
+	;;
+
+	logrotate)
+
+		echo -n "Re-opening fpm log file "
+
+		if [ ! -r $fpm_PID ] ; then
+			echo "warning, no pid file found - fpm is not running ?"
+			exit 1
+		fi
+
+		kill -USR1 `cat $fpm_PID`
+
+		echo " done"
+	;;
+
+	*)
+		echo "Usage: $0 {start|stop|quit|restart|reload|logrotate}"
+		exit 1
+	;;
+
+esac

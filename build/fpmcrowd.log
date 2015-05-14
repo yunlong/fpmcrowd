@@ -1,0 +1,669 @@
+
+Nov 06 17:27:48.102424 [NOTICE] fpm_stdio_init_final(), line 50: error_log fd is 3  log level is 1
+Nov 06 17:27:48.102450 [NOTICE] fpm_unix_init_main(), line 281: getrlimit(nofile): max:10240, cur:10240
+Nov 06 17:27:48.102474 [NOTICE] fpm_env_conf_wp(), line 63: home:nginx user:/home/nginx 
+
+Nov 06 17:27:48.102516 [NOTICE] fpm_signals_init_main(), line 214: master process 12751 signals OK
+Nov 06 17:27:48.102575 [ERROR] fpm_sockets_new_listening_socket(), line 217: bind() for address '127.0.0.1:9900' failed: Address already in use (98)
+Nov 06 17:27:48.102609 [NOTICE] fpm_sockets_init_main(), line 379: master process 12751 is listening sockfd -1 
+Nov 06 17:27:55.229631 [NOTICE] sig_handler(), line 176: master process 12634 is receiving signal T
+Nov 06 17:27:55.229670 [NOTICE] fpm_got_signal(), line 54: received SIGTERM
+Nov 06 17:27:55.229681 [NOTICE] fpm_pctl(), line 253: master process controller is switching to 'terminating' state from 'normal' state
+Nov 06 17:27:55.229691 [NOTICE] fpm_pctl(), line 259: master process controller is processing next action by 'terminating' state
+Nov 06 17:27:55.229704 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 15 SIGTERM to child 12636 (pool default)
+Nov 06 17:27:55.229721 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 15 SIGTERM to child 12635 (pool default)
+Nov 06 17:27:55.229734 [NOTICE] fpm_pctl_kill_all(), line 177: 2 children are still alive
+Nov 06 17:27:55.229752 [NOTICE] fpm_pctl(), line 259: master process controller is processing next action by 'terminating' state
+Nov 06 17:27:55.229765 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 9 SIGKILL to child 12636 (pool default)
+Nov 06 17:27:55.229780 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 9 SIGKILL to child 12635 (pool default)
+Nov 06 17:28:15.234074 [NOTICE] fpm_stdio_init_final(), line 50: error_log fd is 3  log level is 1
+Nov 06 17:28:15.234092 [NOTICE] fpm_unix_init_main(), line 281: getrlimit(nofile): max:10240, cur:10240
+Nov 06 17:28:15.234108 [NOTICE] fpm_env_conf_wp(), line 63: home:nginx user:/home/nginx 
+
+Nov 06 17:28:15.234137 [NOTICE] fpm_signals_init_main(), line 214: master process 12791 signals OK
+Nov 06 17:28:15.234186 [NOTICE] fpm_sockets_init_main(), line 379: master process 12791 is listening sockfd 6 
+Nov 06 17:28:15.234297 [NOTICE] fpm_event_init_main(), line 87: libevent: using epoll
+Nov 06 17:28:15.234369 [NOTICE] fpm_conf_write_pid(), line 469: master process 12791 write pid 12791 to file /usr/local/src/fpmcrowd/build/fpmcrowd.pid OK
+Nov 06 17:28:15.234381 [NOTICE] fpm_init(), line 49: fpm is running, pid 12791
+Nov 06 17:28:15.234830 [NOTICE] fpm_children_make(), line 342: child 12792 (pool default) started
+Nov 06 17:28:15.235007 [NOTICE] sig_handler(), line 176: master process 12791 is receiving signal C
+Nov 06 17:28:15.235563 [NOTICE] sig_handler(), line 176: master process 12791 is receiving signal C
+Nov 06 17:28:15.235603 [NOTICE] fpm_children_make(), line 342: child 12794 (pool default) started
+Nov 06 17:28:15.235624 [NOTICE] fpm_event_loop(), line 104: libevent: entering main loop
+Nov 06 17:28:15.235643 [NOTICE] fpm_got_signal(), line 46: received SIGCHLD
+Nov 06 17:28:15.235662 [WARNING] fpm_children_bury(), line 207: child 12792 (pool default) exited on signal 11 SIGSEGV after 0.000851 seconds from start
+Nov 06 17:28:15.235831 [NOTICE] fpm_children_make(), line 342: child 12795 (pool default) started
+Nov 06 17:28:15.235864 [WARNING] fpm_children_bury(), line 207: child 12794 (pool default) exited on signal 11 SIGSEGV after 0.000273 seconds from start
+Nov 06 17:28:15.236485 [NOTICE] sig_handler(), line 176: master process 12791 is receiving signal C
+Nov 06 17:28:15.236524 [NOTICE] fpm_children_make(), line 342: child 12796 (pool default) started
+Nov 06 17:28:15.236541 [WARNING] fpm_children_bury(), line 207: child 12795 (pool default) exited on signal 11 SIGSEGV after 0.000727 seconds from start
+Nov 06 17:28:15.236821 [NOTICE] fpm_children_make(), line 342: child 12797 (pool default) started
+Nov 06 17:28:15.236852 [WARNING] fpm_children_bury(), line 207: child 12796 (pool default) exited on signal 11 SIGSEGV after 0.000338 seconds from start
+Nov 06 17:28:15.237432 [NOTICE] sig_handler(), line 176: master process 12791 is receiving signal C
+Nov 06 17:28:15.237472 [NOTICE] fpm_children_make(), line 342: child 12798 (pool default) started
+Nov 06 17:28:15.237489 [WARNING] fpm_children_bury(), line 207: child 12797 (pool default) exited on signal 11 SIGSEGV after 0.000686 seconds from start
+Nov 06 17:28:15.237821 [NOTICE] fpm_children_make(), line 342: child 12799 (pool default) started
+Nov 06 17:28:15.237851 [WARNING] fpm_children_bury(), line 207: child 12798 (pool default) exited on signal 11 SIGSEGV after 0.000390 seconds from start
+Nov 06 17:28:15.238444 [NOTICE] sig_handler(), line 176: master process 12791 is receiving signal C
+Nov 06 17:28:15.238484 [NOTICE] fpm_children_make(), line 342: child 12800 (pool default) started
+Nov 06 17:28:15.238501 [WARNING] fpm_children_bury(), line 207: child 12799 (pool default) exited on signal 11 SIGSEGV after 0.000698 seconds from start
+Nov 06 17:28:15.238819 [NOTICE] fpm_children_make(), line 342: child 12801 (pool default) started
+Nov 06 17:28:15.238846 [WARNING] fpm_children_bury(), line 207: child 12800 (pool default) exited on signal 11 SIGSEGV after 0.000372 seconds from start
+Nov 06 17:28:15.239440 [NOTICE] sig_handler(), line 176: master process 12791 is receiving signal C
+Nov 06 17:28:15.239478 [NOTICE] fpm_children_make(), line 342: child 12802 (pool default) started
+Nov 06 17:28:15.239494 [WARNING] fpm_children_bury(), line 207: child 12801 (pool default) exited on signal 11 SIGSEGV after 0.000691 seconds from start
+Nov 06 17:28:15.239820 [NOTICE] fpm_children_make(), line 342: child 12803 (pool default) started
+Nov 06 17:28:15.239847 [WARNING] fpm_children_bury(), line 207: child 12802 (pool default) exited on signal 11 SIGSEGV after 0.000380 seconds from start
+Nov 06 17:28:15.239868 [WARNING] fpm_children_bury(), line 234: failed processes threshold (10 in 60 sec) is reached, initiating reload
+Nov 06 17:28:15.239881 [NOTICE] fpm_pctl(), line 253: master process controller is switching to 'reloading' state from 'normal' state
+Nov 06 17:28:15.239891 [NOTICE] fpm_pctl(), line 259: master process controller is processing next action by 'reloading' state
+Nov 06 17:28:15.239904 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 3 SIGQUIT to child 12803 (pool default)
+Nov 06 17:28:15.239913 [NOTICE] fpm_pctl_kill_all(), line 177: 1 child is still alive
+Nov 06 17:28:15.239927 [NOTICE] fpm_got_signal(), line 46: received SIGCHLD
+Nov 06 17:28:15.239937 [NOTICE] fpm_got_signal(), line 46: received SIGCHLD
+Nov 06 17:28:15.239947 [NOTICE] fpm_got_signal(), line 46: received SIGCHLD
+Nov 06 17:33:08.946549 [NOTICE] fpm_stdio_init_final(), line 50: error_log fd is 3  log level is 1
+Nov 06 17:33:08.946576 [NOTICE] fpm_unix_init_main(), line 281: getrlimit(nofile): max:10240, cur:10240
+Nov 06 17:33:08.946599 [NOTICE] fpm_env_conf_wp(), line 63: home:nginx user:/home/nginx 
+
+Nov 06 17:33:08.946632 [NOTICE] fpm_signals_init_main(), line 214: master process 13084 signals OK
+Nov 06 17:33:08.946691 [NOTICE] fpm_sockets_init_main(), line 379: master process 13084 is listening sockfd 6 
+Nov 06 17:33:08.946814 [NOTICE] fpm_event_init_main(), line 87: libevent: using epoll
+Nov 06 17:33:08.946906 [NOTICE] fpm_conf_write_pid(), line 469: master process 13084 write pid 13084 to file /usr/local/src/fpmcrowd/build/fpmcrowd.pid OK
+Nov 06 17:33:08.946926 [NOTICE] fpm_init(), line 49: fpm is running, pid 13084
+Nov 06 17:33:08.947655 [NOTICE] sig_handler(), line 176: master process 13084 is receiving signal C
+Nov 06 17:33:08.947716 [NOTICE] fpm_children_make(), line 342: child 13085 (pool default) started
+Nov 06 17:33:08.948369 [NOTICE] sig_handler(), line 176: master process 13084 is receiving signal C
+Nov 06 17:33:08.948410 [NOTICE] fpm_children_make(), line 342: child 13086 (pool default) started
+Nov 06 17:33:08.948431 [NOTICE] fpm_event_loop(), line 104: libevent: entering main loop
+Nov 06 17:33:08.948450 [NOTICE] fpm_got_signal(), line 46: received SIGCHLD
+Nov 06 17:33:08.948481 [WARNING] fpm_children_bury(), line 207: child 13085 (pool default) exited on signal 11 SIGSEGV after 0.000783 seconds from start
+Nov 06 17:33:08.948821 [NOTICE] fpm_children_make(), line 342: child 13087 (pool default) started
+Nov 06 17:33:08.948853 [WARNING] fpm_children_bury(), line 207: child 13086 (pool default) exited on signal 11 SIGSEGV after 0.000455 seconds from start
+Nov 06 17:33:08.949411 [NOTICE] sig_handler(), line 176: master process 13084 is receiving signal C
+Nov 06 17:33:08.949451 [NOTICE] fpm_children_make(), line 342: child 13088 (pool default) started
+Nov 06 17:33:08.949467 [WARNING] fpm_children_bury(), line 207: child 13087 (pool default) exited on signal 11 SIGSEGV after 0.000661 seconds from start
+Nov 06 17:33:08.949824 [NOTICE] fpm_children_make(), line 342: child 13089 (pool default) started
+Nov 06 17:33:08.949858 [WARNING] fpm_children_bury(), line 207: child 13088 (pool default) exited on signal 11 SIGSEGV after 0.000417 seconds from start
+Nov 06 17:33:08.950432 [NOTICE] sig_handler(), line 176: master process 13084 is receiving signal C
+Nov 06 17:33:08.950472 [NOTICE] fpm_children_make(), line 342: child 13090 (pool default) started
+Nov 06 17:33:08.950491 [WARNING] fpm_children_bury(), line 207: child 13089 (pool default) exited on signal 11 SIGSEGV after 0.000683 seconds from start
+Nov 06 17:33:08.950823 [NOTICE] fpm_children_make(), line 342: child 13091 (pool default) started
+Nov 06 17:33:08.950855 [WARNING] fpm_children_bury(), line 207: child 13090 (pool default) exited on signal 11 SIGSEGV after 0.000393 seconds from start
+Nov 06 17:33:08.951431 [NOTICE] sig_handler(), line 176: master process 13084 is receiving signal C
+Nov 06 17:33:08.951470 [NOTICE] fpm_children_make(), line 342: child 13092 (pool default) started
+Nov 06 17:33:08.951490 [WARNING] fpm_children_bury(), line 207: child 13091 (pool default) exited on signal 11 SIGSEGV after 0.000684 seconds from start
+Nov 06 17:33:08.951823 [NOTICE] fpm_children_make(), line 342: child 13093 (pool default) started
+Nov 06 17:33:08.951853 [WARNING] fpm_children_bury(), line 207: child 13092 (pool default) exited on signal 11 SIGSEGV after 0.000394 seconds from start
+Nov 06 17:33:08.952394 [NOTICE] sig_handler(), line 176: master process 13084 is receiving signal C
+Nov 06 17:33:08.952434 [NOTICE] fpm_children_make(), line 342: child 13094 (pool default) started
+Nov 06 17:33:08.952450 [WARNING] fpm_children_bury(), line 207: child 13093 (pool default) exited on signal 11 SIGSEGV after 0.000643 seconds from start
+Nov 06 17:33:08.952823 [NOTICE] fpm_children_make(), line 342: child 13095 (pool default) started
+Nov 06 17:33:08.952854 [WARNING] fpm_children_bury(), line 207: child 13094 (pool default) exited on signal 11 SIGSEGV after 0.000431 seconds from start
+Nov 06 17:33:08.952876 [WARNING] fpm_children_bury(), line 234: failed processes threshold (10 in 60 sec) is reached, initiating reload
+Nov 06 17:33:08.952889 [NOTICE] fpm_pctl(), line 253: master process controller is switching to 'reloading' state from 'normal' state
+Nov 06 17:33:08.952898 [NOTICE] fpm_pctl(), line 259: master process controller is processing next action by 'reloading' state
+Nov 06 17:33:08.952911 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 3 SIGQUIT to child 13095 (pool default)
+Nov 06 17:33:08.952920 [NOTICE] fpm_pctl_kill_all(), line 177: 1 child is still alive
+Nov 06 17:33:08.952933 [NOTICE] fpm_got_signal(), line 46: received SIGCHLD
+Nov 06 17:33:08.952944 [NOTICE] fpm_got_signal(), line 46: received SIGCHLD
+Nov 06 17:33:08.952954 [NOTICE] fpm_got_signal(), line 46: received SIGCHLD
+Nov 06 17:33:08.952964 [NOTICE] fpm_got_signal(), line 46: received SIGCHLD
+Nov 06 17:33:08.952976 [NOTICE] sig_handler(), line 176: master process 13084 is receiving signal C
+Nov 06 17:33:08.952991 [WARNING] fpm_children_bury(), line 207: child 13095 (pool default) exited on signal 11 SIGSEGV after 0.000184 seconds from start
+Nov 06 17:33:08.953008 [NOTICE] fpm_pctl_child_exited(), line 282: master process controller has 0 running children
+Nov 06 17:33:08.953017 [NOTICE] fpm_pctl(), line 265: master process controller is processing last child process exited
+Nov 06 17:33:08.953035 [NOTICE] fpm_pctl_action_last(), line 121: master process controller is reloading process from state reloading 
+Nov 06 17:33:08.953045 [NOTICE] fpm_pctl_exec(), line 89: reloading: execvp("/usr/local/src/fpmcrowd/build/fpmcrowd", {"/usr/local/src/fpmcrowd/build/fpmcrowd", "--fpm", "--fpm-config", "/usr/local/src/fpmcrowd/build/fpmcrowd.conf"})
+Nov 06 17:33:08.955249 [NOTICE] fpm_worker_pool_config_alloc(), line 260: orig parent process 13084 alloc worker pool OK
+Nov 06 17:33:08.955309 [NOTICE] fpm_worker_pool_config_alloc(), line 266: orig parent process 13084 alloc worker pool config OK
+Nov 06 17:33:08.955487 [NOTICE] fpm_unix_init_main(), line 247: master process 13096 started
+Nov 06 17:33:08.956019 [NOTICE] fpm_unix_conf_wp(), line 148: home:nginx user:/home/nginx uid:501 gid:501
+Nov 06 17:33:08.956042 [NOTICE] fpm_stdio_init_final(), line 50: error_log fd is 3  log level is 1
+Nov 06 17:33:08.956056 [NOTICE] fpm_unix_init_main(), line 281: getrlimit(nofile): max:10240, cur:10240
+Nov 06 17:33:08.956071 [NOTICE] fpm_env_conf_wp(), line 63: home:nginx user:/home/nginx 
+
+Nov 06 17:33:08.956100 [NOTICE] fpm_signals_init_main(), line 214: master process 13096 signals OK
+Nov 06 17:33:08.956121 [NOTICE] fpm_sockets_init_main(), line 360: using inherited socket fd=6, "127.0.0.1:9900"
+Nov 06 17:33:08.956140 [NOTICE] fpm_sockets_init_main(), line 379: master process 13096 is listening sockfd 6 
+Nov 06 17:33:08.956245 [NOTICE] fpm_event_init_main(), line 87: libevent: using epoll
+Nov 06 17:33:08.956305 [NOTICE] fpm_conf_write_pid(), line 469: master process 13096 write pid 13096 to file /usr/local/src/fpmcrowd/build/fpmcrowd.pid OK
+Nov 06 17:33:08.956318 [NOTICE] fpm_init(), line 49: fpm is running, pid 13096
+Nov 06 17:33:08.956823 [NOTICE] fpm_children_make(), line 342: child 13097 (pool default) started
+Nov 06 17:33:08.956861 [NOTICE] sig_handler(), line 176: master process 13096 is receiving signal C
+Nov 06 17:33:08.957374 [NOTICE] sig_handler(), line 176: master process 13096 is receiving signal C
+Nov 06 17:33:08.957414 [NOTICE] fpm_children_make(), line 342: child 13098 (pool default) started
+Nov 06 17:33:08.957435 [NOTICE] fpm_event_loop(), line 104: libevent: entering main loop
+Nov 06 17:33:08.957453 [NOTICE] fpm_got_signal(), line 46: received SIGCHLD
+Nov 06 17:33:08.957472 [WARNING] fpm_children_bury(), line 207: child 13097 (pool default) exited on signal 11 SIGSEGV after 0.000661 seconds from start
+Nov 06 17:33:08.957820 [NOTICE] fpm_children_make(), line 342: child 13099 (pool default) started
+Nov 06 17:33:08.957851 [WARNING] fpm_children_bury(), line 207: child 13098 (pool default) exited on signal 11 SIGSEGV after 0.000447 seconds from start
+Nov 06 17:33:08.958388 [NOTICE] sig_handler(), line 176: master process 13096 is receiving signal C
+Nov 06 17:33:08.958429 [NOTICE] fpm_children_make(), line 342: child 13100 (pool default) started
+Nov 06 17:33:08.958445 [WARNING] fpm_children_bury(), line 207: child 13099 (pool default) exited on signal 11 SIGSEGV after 0.000638 seconds from start
+Nov 06 17:33:08.958824 [NOTICE] fpm_children_make(), line 342: child 13101 (pool default) started
+Nov 06 17:33:08.958855 [WARNING] fpm_children_bury(), line 207: child 13100 (pool default) exited on signal 11 SIGSEGV after 0.000436 seconds from start
+Nov 06 17:33:08.959391 [NOTICE] sig_handler(), line 176: master process 13096 is receiving signal C
+Nov 06 17:33:08.959432 [NOTICE] fpm_children_make(), line 342: child 13102 (pool default) started
+Nov 06 17:33:08.959448 [WARNING] fpm_children_bury(), line 207: child 13101 (pool default) exited on signal 11 SIGSEGV after 0.000639 seconds from start
+Nov 06 17:33:08.959820 [NOTICE] fpm_children_make(), line 342: child 13103 (pool default) started
+Nov 06 17:33:08.959851 [WARNING] fpm_children_bury(), line 207: child 13102 (pool default) exited on signal 11 SIGSEGV after 0.000429 seconds from start
+Nov 06 17:33:08.960379 [NOTICE] sig_handler(), line 176: master process 13096 is receiving signal C
+Nov 06 17:33:08.960430 [NOTICE] fpm_children_make(), line 342: child 13104 (pool default) started
+Nov 06 17:33:08.960447 [WARNING] fpm_children_bury(), line 207: child 13103 (pool default) exited on signal 11 SIGSEGV after 0.000641 seconds from start
+Nov 06 17:33:08.960821 [NOTICE] fpm_children_make(), line 342: child 13105 (pool default) started
+Nov 06 17:33:08.960852 [WARNING] fpm_children_bury(), line 207: child 13104 (pool default) exited on signal 11 SIGSEGV after 0.000433 seconds from start
+Nov 06 17:33:08.961384 [NOTICE] sig_handler(), line 176: master process 13096 is receiving signal C
+Nov 06 17:33:08.961424 [NOTICE] fpm_children_make(), line 342: child 13106 (pool default) started
+Nov 06 17:33:08.961441 [WARNING] fpm_children_bury(), line 207: child 13105 (pool default) exited on signal 11 SIGSEGV after 0.000634 seconds from start
+Nov 06 17:33:08.961820 [NOTICE] fpm_children_make(), line 342: child 13107 (pool default) started
+Nov 06 17:33:08.961850 [WARNING] fpm_children_bury(), line 207: child 13106 (pool default) exited on signal 11 SIGSEGV after 0.000435 seconds from start
+Nov 06 17:33:08.961871 [WARNING] fpm_children_bury(), line 234: failed processes threshold (10 in 60 sec) is reached, initiating reload
+Nov 06 17:33:08.961883 [NOTICE] fpm_pctl(), line 253: master process controller is switching to 'reloading' state from 'normal' state
+Nov 06 17:33:08.961892 [NOTICE] fpm_pctl(), line 259: master process controller is processing next action by 'reloading' state
+Nov 06 17:33:08.961904 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 3 SIGQUIT to child 13107 (pool default)
+Nov 06 17:33:08.961914 [NOTICE] fpm_pctl_kill_all(), line 177: 1 child is still alive
+Nov 06 17:33:08.961927 [NOTICE] fpm_got_signal(), line 46: received SIGCHLD
+Nov 06 17:33:08.961937 [NOTICE] fpm_got_signal(), line 46: received SIGCHLD
+Nov 06 17:33:08.961948 [NOTICE] fpm_got_signal(), line 46: received SIGCHLD
+Nov 06 17:33:08.961962 [NOTICE] sig_handler(), line 176: master process 13096 is receiving signal C
+Nov 06 17:33:08.961973 [NOTICE] fpm_got_signal(), line 46: received SIGCHLD
+Nov 06 17:33:08.961985 [NOTICE] fpm_children_bury(), line 207: child 13107 (pool default) exited on signal 3 SIGQUIT after 0.000180 seconds from start
+Nov 06 17:33:08.962002 [NOTICE] fpm_pctl_child_exited(), line 282: master process controller has 0 running children
+Nov 06 17:33:08.962011 [NOTICE] fpm_pctl(), line 265: master process controller is processing last child process exited
+Nov 06 17:33:08.962019 [NOTICE] fpm_pctl_action_last(), line 121: master process controller is reloading process from state reloading 
+Nov 06 17:33:08.962028 [NOTICE] fpm_pctl_exec(), line 89: reloading: execvp("/usr/local/src/fpmcrowd/build/fpmcrowd", {"/usr/local/src/fpmcrowd/build/fpmcrowd", "--fpm", "--fpm-config", "/usr/local/src/fpmcrowd/build/fpmcrowd.conf"})
+Nov 06 17:33:08.964218 [NOTICE] fpm_worker_pool_config_alloc(), line 260: orig parent process 13096 alloc worker pool OK
+Nov 06 17:33:08.964275 [NOTICE] fpm_worker_pool_config_alloc(), line 266: orig parent process 13096 alloc worker pool config OK
+Nov 06 17:33:08.964457 [NOTICE] fpm_unix_init_main(), line 247: master process 13108 started
+Nov 06 17:33:08.964977 [NOTICE] fpm_unix_conf_wp(), line 148: home:nginx user:/home/nginx uid:501 gid:501
+Nov 06 17:33:08.964999 [NOTICE] fpm_stdio_init_final(), line 50: error_log fd is 3  log level is 1
+Nov 06 17:33:08.965013 [NOTICE] fpm_unix_init_main(), line 281: getrlimit(nofile): max:10240, cur:10240
+Nov 06 17:33:08.965028 [NOTICE] fpm_env_conf_wp(), line 63: home:nginx user:/home/nginx 
+
+Nov 06 17:33:08.965057 [NOTICE] fpm_signals_init_main(), line 214: master process 13108 signals OK
+Nov 06 17:33:08.965078 [NOTICE] fpm_sockets_init_main(), line 360: using inherited socket fd=6, "127.0.0.1:9900"
+Nov 06 17:33:08.965096 [NOTICE] fpm_sockets_init_main(), line 379: master process 13108 is listening sockfd 6 
+Nov 06 17:33:08.965202 [NOTICE] fpm_event_init_main(), line 87: libevent: using epoll
+Nov 06 17:33:08.965263 [NOTICE] fpm_conf_write_pid(), line 469: master process 13108 write pid 13108 to file /usr/local/src/fpmcrowd/build/fpmcrowd.pid OK
+Nov 06 17:33:08.965283 [NOTICE] fpm_init(), line 49: fpm is running, pid 13108
+Nov 06 17:34:25.832204 [NOTICE] fpm_stdio_init_final(), line 50: error_log fd is 3  log level is 1
+Nov 06 17:34:25.832223 [NOTICE] fpm_unix_init_main(), line 281: getrlimit(nofile): max:10240, cur:10240
+Nov 06 17:34:25.832239 [NOTICE] fpm_env_conf_wp(), line 63: home:nginx user:/home/nginx 
+
+Nov 06 17:34:25.832268 [NOTICE] fpm_signals_init_main(), line 214: master process 13190 signals OK
+Nov 06 17:34:25.832321 [NOTICE] fpm_sockets_init_main(), line 379: master process 13190 is listening sockfd 6 
+Nov 06 17:34:25.832434 [NOTICE] fpm_event_init_main(), line 87: libevent: using epoll
+Nov 06 17:34:25.832519 [NOTICE] fpm_conf_write_pid(), line 469: master process 13190 write pid 13190 to file /usr/local/src/fpmcrowd/build/fpmcrowd.pid OK
+Nov 06 17:34:25.832539 [NOTICE] fpm_init(), line 49: fpm is running, pid 13190
+Nov 06 17:34:25.833184 [NOTICE] fpm_children_make(), line 342: child 13191 (pool default) started
+Nov 06 17:34:25.833502 [NOTICE] fpm_children_make(), line 342: child 13192 (pool default) started
+Nov 06 17:34:25.833553 [NOTICE] fpm_event_loop(), line 104: libevent: entering main loop
+Nov 06 17:34:31.763154 [WARNING] fpm_stdio_child_said(), line 160: child 13191 (pool default) said into stderr: "child '13191' is processing request."
+Nov 06 17:34:36.241158 [WARNING] fpm_stdio_child_said(), line 160: child 13192 (pool default) said into stderr: "child '13192' is processing request."
+Nov 06 17:34:36.690101 [WARNING] fpm_stdio_child_said(), line 160: child 13191 (pool default) said into stderr: "child '13191' is processing request."
+Nov 06 17:34:36.888441 [WARNING] fpm_stdio_child_said(), line 160: child 13192 (pool default) said into stderr: "child '13192' is processing request."
+Nov 06 17:34:37.083421 [WARNING] fpm_stdio_child_said(), line 160: child 13191 (pool default) said into stderr: "child '13191' is processing request."
+Nov 06 17:34:37.246743 [WARNING] fpm_stdio_child_said(), line 160: child 13192 (pool default) said into stderr: "child '13192' is processing request."
+Nov 06 17:34:37.420103 [WARNING] fpm_stdio_child_said(), line 160: child 13191 (pool default) said into stderr: "child '13191' is processing request."
+Nov 06 17:34:37.606088 [WARNING] fpm_stdio_child_said(), line 160: child 13192 (pool default) said into stderr: "child '13192' is processing request."
+Nov 06 17:34:37.777957 [WARNING] fpm_stdio_child_said(), line 160: child 13191 (pool default) said into stderr: "child '13191' is processing request."
+Nov 06 17:34:37.981764 [WARNING] fpm_stdio_child_said(), line 160: child 13192 (pool default) said into stderr: "child '13192' is processing request."
+Nov 06 18:04:18.424287 [NOTICE] sig_handler(), line 176: master process 13190 is receiving signal T
+Nov 06 18:04:18.424327 [NOTICE] fpm_got_signal(), line 54: received SIGTERM
+Nov 06 18:04:18.424339 [NOTICE] fpm_pctl(), line 253: master process controller is switching to 'terminating' state from 'normal' state
+Nov 06 18:04:18.424349 [NOTICE] fpm_pctl(), line 259: master process controller is processing next action by 'terminating' state
+Nov 06 18:04:18.424363 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 15 SIGTERM to child 13192 (pool default)
+Nov 06 18:04:18.424381 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 15 SIGTERM to child 13191 (pool default)
+Nov 06 18:04:18.424394 [NOTICE] fpm_pctl_kill_all(), line 177: 2 children are still alive
+Nov 06 18:04:18.424413 [NOTICE] fpm_pctl(), line 259: master process controller is processing next action by 'terminating' state
+Nov 06 18:04:18.424427 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 9 SIGKILL to child 13192 (pool default)
+Nov 06 18:04:18.424442 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 9 SIGKILL to child 13191 (pool default)
+Nov 06 18:04:18.424456 [NOTICE] fpm_pctl_kill_all(), line 177: 2 children are still alive
+Nov 06 18:04:18.424525 [NOTICE] sig_handler(), line 176: master process 13190 is receiving signal C
+Nov 06 18:04:18.424559 [NOTICE] sig_handler(), line 176: master process 13190 is receiving signal C
+Nov 06 18:04:18.424592 [NOTICE] fpm_got_signal(), line 46: received SIGCHLD
+Nov 06 18:04:18.424615 [WARNING] fpm_children_bury(), line 207: child 13191 (pool default) exited on signal 15 SIGTERM after 1792.591448 seconds from start
+Nov 06 18:04:18.424627 [NOTICE] fpm_pctl_child_exited(), line 282: master process controller has 1 running children
+Nov 06 18:04:18.424640 [WARNING] fpm_children_bury(), line 207: child 13192 (pool default) exited on signal 15 SIGTERM after 1792.591159 seconds from start
+Nov 06 18:04:18.424649 [NOTICE] fpm_pctl_child_exited(), line 282: master process controller has 0 running children
+Nov 06 18:04:18.424658 [NOTICE] fpm_pctl(), line 265: master process controller is processing last child process exited
+Nov 06 18:04:18.424665 [NOTICE] fpm_pctl_action_last(), line 129: master process controller is exited from state terminating 
+Nov 06 18:04:18.424674 [NOTICE] fpm_pctl_exit(), line 75: exiting, bye-bye!
+Nov 06 18:04:21.376422 [NOTICE] fpm_stdio_init_final(), line 50: error_log fd is 3  log level is 1
+Nov 06 18:04:21.376448 [NOTICE] fpm_unix_init_main(), line 281: getrlimit(nofile): max:10240, cur:10240
+Nov 06 18:04:21.376471 [NOTICE] fpm_env_conf_wp(), line 63: home:nginx user:/home/nginx 
+
+Nov 06 18:04:21.376503 [NOTICE] fpm_signals_init_main(), line 214: master process 14958 signals OK
+Nov 06 18:04:21.376562 [NOTICE] fpm_sockets_init_main(), line 379: master process 14958 is listening sockfd 6 
+Nov 06 18:04:21.376670 [NOTICE] fpm_event_init_main(), line 87: libevent: using epoll
+Nov 06 18:04:21.376725 [NOTICE] fpm_conf_write_pid(), line 469: master process 14958 write pid 14958 to file /usr/local/src/fpmcrowd/build/fpmcrowd.pid OK
+Nov 06 18:04:21.376743 [NOTICE] fpm_init(), line 49: fpm is running, pid 14958
+Nov 06 18:04:21.376980 [NOTICE] fpm_children_make(), line 355: child 14960 (pool default) started
+Nov 06 18:04:21.377556 [NOTICE] fpm_children_make(), line 355: child 14961 (pool default) started
+Nov 06 18:04:21.377587 [NOTICE] fpm_event_loop(), line 104: libevent: entering main loop
+Nov 06 18:04:30.283066 [WARNING] fpm_stdio_child_said(), line 160: child 14960 (pool default) said into stderr: "child '14960' is processing request."
+Nov 06 18:04:35.277240 [WARNING] fpm_stdio_child_said(), line 160: child 14961 (pool default) said into stderr: "child '14961' is processing request."
+Nov 06 18:05:15.607877 [NOTICE] sig_handler(), line 176: master process 14958 is receiving signal T
+Nov 06 18:05:15.607918 [NOTICE] fpm_got_signal(), line 54: received SIGTERM
+Nov 06 18:05:15.607930 [NOTICE] fpm_pctl(), line 253: master process controller is switching to 'terminating' state from 'normal' state
+Nov 06 18:05:15.607940 [NOTICE] fpm_pctl(), line 259: master process controller is processing next action by 'terminating' state
+Nov 06 18:05:15.607953 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 15 SIGTERM to child 14961 (pool default)
+Nov 06 18:05:15.607971 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 15 SIGTERM to child 14960 (pool default)
+Nov 06 18:05:15.607984 [NOTICE] fpm_pctl_kill_all(), line 177: 2 children are still alive
+Nov 06 18:05:15.608003 [NOTICE] fpm_pctl(), line 259: master process controller is processing next action by 'terminating' state
+Nov 06 18:05:15.608021 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 9 SIGKILL to child 14961 (pool default)
+Nov 06 18:05:15.608036 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 9 SIGKILL to child 14960 (pool default)
+Nov 06 18:05:15.608049 [NOTICE] fpm_pctl_kill_all(), line 177: 2 children are still alive
+Nov 06 18:05:15.608066 [NOTICE] sig_handler(), line 176: master process 14958 is receiving signal C
+Nov 06 18:05:15.608096 [NOTICE] sig_handler(), line 176: master process 14958 is receiving signal C
+Nov 06 18:05:15.608134 [NOTICE] fpm_got_signal(), line 46: received SIGCHLD
+Nov 06 18:05:15.608163 [WARNING] fpm_children_bury(), line 211: child 14960 (pool default) exited on signal 15 SIGTERM after 54.231208 seconds from start
+Nov 06 18:05:15.608190 [NOTICE] fpm_pctl_child_exited(), line 282: master process controller has 1 running children
+Nov 06 18:05:15.608205 [WARNING] fpm_children_bury(), line 211: child 14961 (pool default) exited on signal 15 SIGTERM after 54.230659 seconds from start
+Nov 06 18:05:15.608223 [NOTICE] fpm_pctl_child_exited(), line 282: master process controller has 0 running children
+Nov 06 18:05:15.608232 [NOTICE] fpm_pctl(), line 265: master process controller is processing last child process exited
+Nov 06 18:05:15.608240 [NOTICE] fpm_pctl_action_last(), line 129: master process controller is exited from state terminating 
+Nov 06 18:05:15.608248 [NOTICE] fpm_pctl_exit(), line 75: exiting, bye-bye!
+Nov 06 18:05:20.196457 [NOTICE] fpm_stdio_init_final(), line 50: error_log fd is 3  log level is 1
+Nov 06 18:05:20.196474 [NOTICE] fpm_unix_init_main(), line 281: getrlimit(nofile): max:10240, cur:10240
+Nov 06 18:05:20.196490 [NOTICE] fpm_env_conf_wp(), line 63: home:nginx user:/home/nginx 
+
+Nov 06 18:05:20.196519 [NOTICE] fpm_signals_init_main(), line 214: master process 15033 signals OK
+Nov 06 18:05:20.196567 [NOTICE] fpm_sockets_init_main(), line 379: master process 15033 is listening sockfd 6 
+Nov 06 18:05:20.196676 [NOTICE] fpm_event_init_main(), line 87: libevent: using epoll
+Nov 06 18:05:20.196723 [NOTICE] fpm_conf_write_pid(), line 469: master process 15033 write pid 15033 to file /usr/local/src/fpmcrowd/build/fpmcrowd.pid OK
+Nov 06 18:05:20.196735 [NOTICE] fpm_init(), line 49: fpm is running, pid 15033
+Nov 06 18:05:20.196988 [NOTICE] fpm_children_make(), line 355: child 15034 (pool default) started
+Nov 06 18:05:20.197526 [NOTICE] fpm_children_make(), line 355: child 15035 (pool default) started
+Nov 06 18:05:20.197557 [NOTICE] fpm_event_loop(), line 104: libevent: entering main loop
+Nov 06 18:05:27.182223 [WARNING] fpm_stdio_child_said(), line 160: child 15034 (pool default) said into stderr: "child '15034' is processing request."
+Nov 06 18:05:33.400549 [WARNING] fpm_stdio_child_said(), line 160: child 15035 (pool default) said into stderr: "child '15035' is processing request."
+Nov 06 18:05:34.134219 [WARNING] fpm_stdio_child_said(), line 160: child 15034 (pool default) said into stderr: "child '15034' is processing request."
+Nov 06 18:28:49.208309 [NOTICE] sig_handler(), line 176: master process 15033 is receiving signal T
+Nov 06 18:28:49.208349 [NOTICE] fpm_got_signal(), line 54: received SIGTERM
+Nov 06 18:28:49.208361 [NOTICE] fpm_pctl(), line 253: master process controller is switching to 'terminating' state from 'normal' state
+Nov 06 18:28:49.208370 [NOTICE] fpm_pctl(), line 259: master process controller is processing next action by 'terminating' state
+Nov 06 18:28:49.208384 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 15 SIGTERM to child 15035 (pool default)
+Nov 06 18:28:49.208403 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 15 SIGTERM to child 15034 (pool default)
+Nov 06 18:28:49.208416 [NOTICE] fpm_pctl_kill_all(), line 177: 2 children are still alive
+Nov 06 18:28:49.208435 [NOTICE] fpm_pctl(), line 259: master process controller is processing next action by 'terminating' state
+Nov 06 18:28:49.208449 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 9 SIGKILL to child 15035 (pool default)
+Nov 06 18:28:49.208463 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 9 SIGKILL to child 15034 (pool default)
+Nov 06 18:28:49.208476 [NOTICE] fpm_pctl_kill_all(), line 177: 2 children are still alive
+Nov 06 18:28:49.208493 [NOTICE] sig_handler(), line 176: master process 15033 is receiving signal C
+Nov 06 18:28:49.208511 [NOTICE] sig_handler(), line 176: master process 15033 is receiving signal C
+Nov 06 18:28:49.208539 [NOTICE] fpm_got_signal(), line 46: received SIGCHLD
+Nov 06 18:28:49.208564 [WARNING] fpm_children_bury(), line 211: child 15034 (pool default) exited on signal 15 SIGTERM after 1409.011597 seconds from start
+Nov 06 18:28:49.208576 [NOTICE] fpm_pctl_child_exited(), line 282: master process controller has 1 running children
+Nov 06 18:28:49.208590 [WARNING] fpm_children_bury(), line 211: child 15035 (pool default) exited on signal 15 SIGTERM after 1409.011074 seconds from start
+Nov 06 18:28:49.208623 [NOTICE] fpm_pctl_child_exited(), line 282: master process controller has 0 running children
+Nov 06 18:28:49.208635 [NOTICE] fpm_pctl(), line 265: master process controller is processing last child process exited
+Nov 06 18:28:49.208644 [NOTICE] fpm_pctl_action_last(), line 129: master process controller is exited from state terminating 
+Nov 06 18:28:49.208652 [NOTICE] fpm_pctl_exit(), line 75: exiting, bye-bye!
+Nov 06 18:29:02.297068 [NOTICE] fpm_stdio_init_final(), line 50: error_log fd is 3  log level is 1
+Nov 06 18:29:02.297087 [NOTICE] fpm_unix_init_main(), line 281: getrlimit(nofile): max:10240, cur:10240
+Nov 06 18:29:02.297104 [NOTICE] fpm_env_conf_wp(), line 63: home:nginx user:/home/nginx 
+
+Nov 06 18:29:02.297138 [NOTICE] fpm_signals_init_main(), line 214: master process 16150 signals OK
+Nov 06 18:29:02.297194 [NOTICE] fpm_sockets_init_main(), line 379: master process 16150 is listening sockfd 6 
+Nov 06 18:29:02.297305 [NOTICE] fpm_event_init_main(), line 87: libevent: using epoll
+Nov 06 18:29:02.297357 [NOTICE] fpm_conf_write_pid(), line 469: master process 16150 write pid 16150 to file /usr/local/src/fpmcrowd/build/fpmcrowd.pid OK
+Nov 06 18:29:02.297370 [NOTICE] fpm_init(), line 49: fpm is running, pid 16150
+Nov 06 18:29:02.297779 [NOTICE] fpm_children_make(), line 355: child 16152 (pool default) started
+Nov 06 18:29:02.298299 [NOTICE] fpm_children_make(), line 355: child 16153 (pool default) started
+Nov 06 18:29:02.298333 [NOTICE] fpm_event_loop(), line 104: libevent: entering main loop
+Nov 06 18:29:11.408743 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:12.095251 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:12.549208 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:12.798445 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:12.986731 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:13.189066 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:13.384809 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:13.563888 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:13.751172 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:14.501395 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:16.720035 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:17.954293 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:18.485908 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:18.938684 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:19.360473 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:19.782511 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:20.142402 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:20.361221 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:20.594834 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:20.813403 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:21.017204 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:21.188280 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:21.391648 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:21.577088 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:21.797846 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:22.001409 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:22.188716 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:22.407263 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:22.601235 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:22.814033 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:23.032318 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:23.231146 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:23.563974 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:24.016257 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:24.453777 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:24.735231 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:24.985204 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:25.530883 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:26.141239 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:26.656697 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:26.984838 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:27.642652 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:28.094648 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:28.438541 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:28.781685 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:29.156877 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:29.438464 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:29.626276 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:29.828564 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:30.032099 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:30.219167 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:30.406709 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:30.578506 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 06 18:29:30.781547 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 06 18:29:31.047270 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 07 09:44:34.641169 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 07 09:44:43.869330 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 07 09:44:44.925937 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 07 09:44:46.860883 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 07 09:44:48.351794 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 07 09:44:49.577200 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 07 09:44:50.588635 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 07 09:44:51.260171 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 07 09:44:52.268824 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 07 09:44:52.780321 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 07 09:44:53.316509 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 07 09:44:53.700067 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 07 09:44:54.124150 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 07 09:44:54.484227 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 07 09:44:54.963962 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 07 09:44:55.299950 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 07 13:49:52.982382 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 07 18:16:09.306925 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 07 18:16:09.688477 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 07 18:16:09.889518 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 07 18:16:10.106281 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 07 18:16:10.262361 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 07 18:16:10.480686 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 07 18:16:10.638485 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 07 18:16:10.841000 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 07 18:16:13.761680 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 07 18:16:13.949191 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 07 18:16:14.167702 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 07 18:19:05.334382 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 07 18:19:05.610313 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 07 18:19:05.799595 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 07 18:19:06.000393 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 07 18:19:06.166691 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 07 18:19:06.346511 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 07 18:19:06.517811 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 07 18:19:06.720857 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 07 18:19:06.877442 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 07 18:19:07.033063 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 07 18:19:07.235304 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 07 18:19:07.391643 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 07 18:19:07.594432 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 07 18:19:07.766489 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 07 18:19:07.967271 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 07 18:19:08.188063 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 07 18:19:08.391091 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 07 18:19:08.734210 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 07 18:19:08.938753 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 07 18:19:09.110081 [WARNING] fpm_stdio_child_said(), line 160: child 16152 (pool default) said into stderr: "child '16152' is processing request."
+Nov 07 18:19:17.748638 [WARNING] fpm_stdio_child_said(), line 160: child 16153 (pool default) said into stderr: "child '16153' is processing request."
+Nov 07 18:24:49.505220 [NOTICE] sig_handler(), line 176: master process 16150 is receiving signal T
+Nov 07 18:24:49.505261 [NOTICE] fpm_got_signal(), line 54: received SIGTERM
+Nov 07 18:24:49.505273 [NOTICE] fpm_pctl(), line 253: master process controller is switching to 'terminating' state from 'normal' state
+Nov 07 18:24:49.505283 [NOTICE] fpm_pctl(), line 259: master process controller is processing next action by 'terminating' state
+Nov 07 18:24:49.505297 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 15 SIGTERM to child 16153 (pool default)
+Nov 07 18:24:49.505309 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 15 SIGTERM to child 16152 (pool default)
+Nov 07 18:24:49.505318 [NOTICE] fpm_pctl_kill_all(), line 177: 2 children are still alive
+Nov 07 18:24:49.505332 [NOTICE] fpm_pctl(), line 259: master process controller is processing next action by 'terminating' state
+Nov 07 18:24:49.505342 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 9 SIGKILL to child 16153 (pool default)
+Nov 07 18:24:49.505352 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 9 SIGKILL to child 16152 (pool default)
+Nov 07 18:24:49.505361 [NOTICE] fpm_pctl_kill_all(), line 177: 2 children are still alive
+Nov 07 18:24:49.505393 [NOTICE] sig_handler(), line 176: master process 16150 is receiving signal C
+Nov 07 18:24:49.505412 [NOTICE] sig_handler(), line 176: master process 16150 is receiving signal C
+Nov 07 18:24:49.505440 [NOTICE] fpm_got_signal(), line 46: received SIGCHLD
+Nov 07 18:24:49.505470 [WARNING] fpm_children_bury(), line 211: child 16152 (pool default) exited on signal 15 SIGTERM after 86147.207711 seconds from start
+Nov 07 18:24:49.505482 [NOTICE] fpm_pctl_child_exited(), line 282: master process controller has 1 running children
+Nov 07 18:24:49.505504 [WARNING] fpm_children_bury(), line 211: child 16153 (pool default) exited on signal 15 SIGTERM after 86147.207214 seconds from start
+Nov 07 18:24:49.505514 [NOTICE] fpm_pctl_child_exited(), line 282: master process controller has 0 running children
+Nov 07 18:24:49.505523 [NOTICE] fpm_pctl(), line 265: master process controller is processing last child process exited
+Nov 07 18:24:49.505531 [NOTICE] fpm_pctl_action_last(), line 129: master process controller is exited from state terminating 
+Nov 07 18:24:49.505540 [NOTICE] fpm_pctl_exit(), line 75: exiting, bye-bye!
+Nov 10 17:31:36.804779 [NOTICE] fpm_stdio_init_final(), line 50: error_log fd is 3  log level is 1
+Nov 10 17:31:36.804798 [NOTICE] fpm_unix_init_main(), line 281: getrlimit(nofile): max:10240, cur:10240
+Nov 10 17:31:36.804814 [NOTICE] fpm_env_conf_wp(), line 63: home:nginx user:/home/nginx 
+
+Nov 10 17:31:36.804843 [NOTICE] fpm_signals_init_main(), line 214: master process 10184 signals OK
+Nov 10 17:31:36.804902 [NOTICE] fpm_sockets_init_main(), line 379: master process 10184 is listening sockfd 6 
+Nov 10 17:31:36.805011 [NOTICE] fpm_event_init_main(), line 87: libevent: using epoll
+Nov 10 17:31:36.805067 [NOTICE] fpm_conf_write_pid(), line 469: master process 10184 write pid 10184 to file /usr/local/src/fpmcrowd/build/fpmcrowd.pid OK
+Nov 10 17:31:36.810310 [NOTICE] fpm_init(), line 49: fpm is running, pid 10184
+Nov 10 17:31:36.810573 [NOTICE] fpm_children_make(), line 355: child 10187 (pool default) started
+Nov 10 17:31:36.811087 [NOTICE] fpm_children_make(), line 355: child 10188 (pool default) started
+Nov 10 17:31:36.811118 [NOTICE] fpm_event_loop(), line 104: libevent: entering main loop
+Nov 10 17:31:48.250785 [WARNING] fpm_stdio_child_said(), line 160: child 10187 (pool default) said into stderr: "child '10187' is processing request."
+Nov 11 10:03:50.710778 [WARNING] fpm_stdio_child_said(), line 160: child 10188 (pool default) said into stderr: "child '10188' is processing request."
+Nov 11 16:50:08.508182 [NOTICE] sig_handler(), line 176: master process 10184 is receiving signal T
+Nov 11 16:50:08.508223 [NOTICE] fpm_got_signal(), line 54: received SIGTERM
+Nov 11 16:50:08.508235 [NOTICE] fpm_pctl(), line 253: master process controller is switching to 'terminating' state from 'normal' state
+Nov 11 16:50:08.508244 [NOTICE] fpm_pctl(), line 259: master process controller is processing next action by 'terminating' state
+Nov 11 16:50:08.508258 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 15 SIGTERM to child 10188 (pool default)
+Nov 11 16:50:08.508271 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 15 SIGTERM to child 10187 (pool default)
+Nov 11 16:50:08.508280 [NOTICE] fpm_pctl_kill_all(), line 177: 2 children are still alive
+Nov 11 16:50:08.508294 [NOTICE] fpm_pctl(), line 259: master process controller is processing next action by 'terminating' state
+Nov 11 16:50:08.508304 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 9 SIGKILL to child 10188 (pool default)
+Nov 11 16:50:08.508314 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 9 SIGKILL to child 10187 (pool default)
+Nov 11 16:50:08.508323 [NOTICE] fpm_pctl_kill_all(), line 177: 2 children are still alive
+Nov 11 16:50:08.508336 [NOTICE] sig_handler(), line 176: master process 10184 is receiving signal C
+Nov 11 16:50:08.508351 [NOTICE] fpm_got_signal(), line 46: received SIGCHLD
+Nov 11 16:50:08.508368 [NOTICE] sig_handler(), line 176: master process 10184 is receiving signal C
+Nov 11 16:50:08.508398 [WARNING] fpm_children_bury(), line 211: child 10187 (pool default) exited on signal 15 SIGTERM after 83911.697843 seconds from start
+Nov 11 16:50:08.508426 [NOTICE] fpm_pctl_child_exited(), line 282: master process controller has 1 running children
+Nov 11 16:50:08.508447 [WARNING] fpm_children_bury(), line 211: child 10188 (pool default) exited on signal 15 SIGTERM after 83911.697369 seconds from start
+Nov 11 16:50:08.508464 [NOTICE] fpm_pctl_child_exited(), line 282: master process controller has 0 running children
+Nov 11 16:50:08.508473 [NOTICE] fpm_pctl(), line 265: master process controller is processing last child process exited
+Nov 11 16:50:08.508481 [NOTICE] fpm_pctl_action_last(), line 129: master process controller is exited from state terminating 
+Nov 11 16:50:08.508489 [NOTICE] fpm_pctl_exit(), line 75: exiting, bye-bye!
+Nov 12 15:37:15.073259 [NOTICE] fpm_stdio_init_final(), line 50: error_log fd is 3  log level is 1
+Nov 12 15:37:15.073286 [NOTICE] fpm_unix_init_main(), line 281: getrlimit(nofile): max:10240, cur:10240
+Nov 12 15:37:15.073309 [NOTICE] fpm_env_conf_wp(), line 63: home:nginx user:/home/nginx 
+
+Nov 12 15:37:15.073349 [NOTICE] fpm_signals_init_main(), line 214: master process 26586 signals OK
+Nov 12 15:37:15.073410 [NOTICE] fpm_sockets_init_main(), line 379: master process 26586 is listening sockfd 6 
+Nov 12 15:37:15.073525 [NOTICE] fpm_event_init_main(), line 87: libevent: using epoll
+Nov 12 15:37:15.073581 [NOTICE] fpm_conf_write_pid(), line 469: master process 26586 write pid 26586 to file /usr/local/src/fpmcrowd/build/fpmcrowd.pid OK
+Nov 12 15:37:15.073593 [NOTICE] fpm_init(), line 49: fpm is running, pid 26586
+Nov 12 15:37:15.074153 [NOTICE] fpm_children_make(), line 355: child 26587 (pool default) started
+Nov 12 15:37:15.074359 [NOTICE] fpm_children_make(), line 355: child 26588 (pool default) started
+Nov 12 15:37:15.074406 [NOTICE] fpm_event_loop(), line 104: libevent: entering main loop
+Nov 12 15:37:19.975506 [WARNING] fpm_stdio_child_said(), line 160: child 26587 (pool default) said into stderr: "child '26587' is processing request."
+Nov 12 18:04:19.657807 [NOTICE] sig_handler(), line 176: master process 26586 is receiving signal T
+Nov 12 18:04:19.657848 [NOTICE] fpm_got_signal(), line 54: received SIGTERM
+Nov 12 18:04:19.657860 [NOTICE] fpm_pctl(), line 253: master process controller is switching to 'terminating' state from 'normal' state
+Nov 12 18:04:19.657869 [NOTICE] fpm_pctl(), line 259: master process controller is processing next action by 'terminating' state
+Nov 12 18:04:19.657883 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 15 SIGTERM to child 26588 (pool default)
+Nov 12 18:04:19.657900 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 15 SIGTERM to child 26587 (pool default)
+Nov 12 18:04:19.657913 [NOTICE] fpm_pctl_kill_all(), line 177: 2 children are still alive
+Nov 12 18:04:19.657931 [NOTICE] fpm_pctl(), line 259: master process controller is processing next action by 'terminating' state
+Nov 12 18:04:19.657944 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 9 SIGKILL to child 26588 (pool default)
+Nov 12 18:04:19.657958 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 9 SIGKILL to child 26587 (pool default)
+Nov 12 18:04:19.657971 [NOTICE] fpm_pctl_kill_all(), line 177: 2 children are still alive
+Nov 12 18:04:19.658054 [NOTICE] sig_handler(), line 176: master process 26586 is receiving signal C
+Nov 12 18:04:19.658074 [NOTICE] sig_handler(), line 176: master process 26586 is receiving signal C
+Nov 12 18:04:19.658105 [NOTICE] fpm_got_signal(), line 46: received SIGCHLD
+Nov 12 18:04:19.658137 [WARNING] fpm_children_bury(), line 211: child 26587 (pool default) exited on signal 15 SIGTERM after 8824.583998 seconds from start
+Nov 12 18:04:19.658149 [NOTICE] fpm_pctl_child_exited(), line 282: master process controller has 1 running children
+Nov 12 18:04:19.658166 [WARNING] fpm_children_bury(), line 211: child 26588 (pool default) exited on signal 15 SIGTERM after 8824.583821 seconds from start
+Nov 12 18:04:19.658175 [NOTICE] fpm_pctl_child_exited(), line 282: master process controller has 0 running children
+Nov 12 18:04:19.658183 [NOTICE] fpm_pctl(), line 265: master process controller is processing last child process exited
+Nov 12 18:04:19.658196 [NOTICE] fpm_pctl_action_last(), line 129: master process controller is exited from state terminating 
+Nov 12 18:04:19.658207 [NOTICE] fpm_pctl_exit(), line 75: exiting, bye-bye!
+Nov 13 12:17:30.866353 [NOTICE] fpm_stdio_init_final(), line 50: error_log fd is 3  log level is 1
+Nov 13 12:17:30.866379 [NOTICE] fpm_unix_init_main(), line 281: getrlimit(nofile): max:10240, cur:10240
+Nov 13 12:17:30.866403 [NOTICE] fpm_env_conf_wp(), line 63: home:nginx user:/home/nginx 
+
+Nov 13 12:17:30.866436 [NOTICE] fpm_signals_init_main(), line 214: master process 3523 signals OK
+Nov 13 12:17:30.866486 [NOTICE] fpm_sockets_init_main(), line 379: master process 3523 is listening sockfd 6 
+Nov 13 12:17:30.866599 [NOTICE] fpm_event_init_main(), line 87: libevent: using epoll
+Nov 13 12:17:30.866668 [NOTICE] fpm_conf_write_pid(), line 469: master process 3523 write pid 3523 to file /usr/local/src/fpmcrowd/build/fpmcrowd.pid OK
+Nov 13 12:17:30.866687 [NOTICE] fpm_init(), line 49: fpm is running, pid 3523
+Nov 13 12:17:30.867222 [NOTICE] fpm_children_make(), line 355: child 3525 (pool default) started
+Nov 13 12:17:30.867726 [NOTICE] fpm_children_make(), line 355: child 3526 (pool default) started
+Nov 13 12:17:30.867756 [NOTICE] fpm_event_loop(), line 104: libevent: entering main loop
+Nov 13 12:17:34.163637 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 13 12:17:34.929532 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 13 12:17:35.444955 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 13 13:30:55.342768 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 14 09:41:39.447709 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 14 12:30:55.694202 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 14 12:30:56.474232 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 14 12:30:57.090590 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 14 12:30:57.496071 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 14 12:30:57.935474 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 14 12:30:58.383120 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 14 12:30:58.582531 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 14 12:30:58.767140 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 14 12:30:58.958518 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 14 12:30:59.126696 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 14 12:30:59.310277 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 14 12:30:59.677244 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 14 12:30:59.854694 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 14 12:31:00.054477 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 14 12:31:00.430522 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 14 12:31:00.631020 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 14 12:31:00.822317 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 14 12:31:01.014309 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 14 12:31:01.206657 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 14 12:31:01.398069 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 14 12:31:01.610498 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 14 12:31:01.894129 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 14 12:31:02.101990 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 14 12:31:02.302507 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 14 12:31:02.533631 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 14 15:26:08.845897 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 14 15:26:09.530298 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 14 15:26:10.109732 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 14 15:53:01.665902 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 14 15:53:02.306308 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 14 15:53:02.743749 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 14 15:53:02.931112 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 17 10:16:39.674562 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 17 17:11:53.195729 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 18 09:36:02.155937 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 18 09:36:22.485568 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 20 09:34:10.776973 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 21 09:36:40.330285 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 24 09:37:07.290518 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 25 09:38:09.140902 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 25 12:27:40.999407 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 25 12:27:41.564556 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 25 12:27:42.174230 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 25 12:27:42.593641 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 25 12:27:42.841375 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 25 12:27:43.075458 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 25 12:27:43.309961 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 25 12:27:43.528305 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 25 12:27:43.746815 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 25 12:27:43.934767 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 25 12:27:44.340818 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 25 12:27:44.544125 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 25 12:35:19.867421 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 25 12:35:20.562920 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 25 12:35:21.109981 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 25 12:35:21.563360 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 26 13:06:28.789872 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 27 09:28:02.234553 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 27 15:51:36.798538 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 27 15:51:37.451753 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 27 15:51:38.046137 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 27 15:51:38.623488 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 27 15:51:39.170340 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 27 15:51:39.669808 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 27 15:51:40.449717 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 27 15:51:40.996628 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 27 15:51:41.840819 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 27 15:51:42.386704 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 27 15:51:42.952256 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 27 15:51:43.446014 [WARNING] fpm_stdio_child_said(), line 160: child 3525 (pool default) said into stderr: "child '3525' is processing request."
+Nov 28 09:44:34.424338 [WARNING] fpm_stdio_child_said(), line 160: child 3526 (pool default) said into stderr: "child '3526' is processing request."
+Nov 28 14:21:36.993418 [NOTICE] fpm_stdio_init_final(), line 50: error_log fd is 3  log level is 1
+Nov 28 14:21:36.993437 [NOTICE] fpm_unix_init_main(), line 281: getrlimit(nofile): max:10240, cur:10240
+Nov 28 14:21:36.993453 [NOTICE] fpm_env_conf_wp(), line 63: home:nginx user:/home/nginx 
+
+Nov 28 14:21:36.993482 [NOTICE] fpm_signals_init_main(), line 214: master process 3725 signals OK
+Nov 28 14:21:36.993522 [ERROR] fpm_sockets_new_listening_socket(), line 217: bind() for address '127.0.0.1:9900' failed: Address already in use (98)
+Nov 28 14:21:36.993543 [NOTICE] fpm_sockets_init_main(), line 379: master process 3725 is listening sockfd -1 
+Nov 28 14:21:43.388521 [NOTICE] sig_handler(), line 176: master process 3523 is receiving signal T
+Nov 28 14:21:43.388561 [NOTICE] fpm_got_signal(), line 54: received SIGTERM
+Nov 28 14:21:43.388573 [NOTICE] fpm_pctl(), line 253: master process controller is switching to 'terminating' state from 'normal' state
+Nov 28 14:21:43.388582 [NOTICE] fpm_pctl(), line 259: master process controller is processing next action by 'terminating' state
+Nov 28 14:21:43.388595 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 15 SIGTERM to child 3526 (pool default)
+Nov 28 14:21:43.388607 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 15 SIGTERM to child 3525 (pool default)
+Nov 28 14:21:43.388616 [NOTICE] fpm_pctl_kill_all(), line 177: 2 children are still alive
+Nov 28 14:21:43.388646 [NOTICE] fpm_pctl(), line 259: master process controller is processing next action by 'terminating' state
+Nov 28 14:21:43.388657 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 9 SIGKILL to child 3526 (pool default)
+Nov 28 14:21:43.388667 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 9 SIGKILL to child 3525 (pool default)
+Nov 28 14:21:43.388676 [NOTICE] fpm_pctl_kill_all(), line 177: 2 children are still alive
+Nov 28 14:21:43.388698 [NOTICE] sig_handler(), line 176: master process 3523 is receiving signal C
+Nov 28 14:21:43.388715 [NOTICE] fpm_got_signal(), line 46: received SIGCHLD
+Nov 28 14:21:43.388747 [WARNING] fpm_children_bury(), line 211: child 3525 (pool default) exited on signal 15 SIGTERM after 1303452.521537 seconds from start
+Nov 28 14:21:43.388767 [NOTICE] fpm_pctl_child_exited(), line 282: master process controller has 1 running children
+Nov 28 14:21:43.388789 [WARNING] fpm_children_bury(), line 211: child 3526 (pool default) exited on signal 15 SIGTERM after 1303452.521071 seconds from start
+Nov 28 14:21:43.388802 [NOTICE] fpm_pctl_child_exited(), line 282: master process controller has 0 running children
+Nov 28 14:21:43.388811 [NOTICE] fpm_pctl(), line 265: master process controller is processing last child process exited
+Nov 28 14:21:43.388819 [NOTICE] fpm_pctl_action_last(), line 129: master process controller is exited from state terminating 
+Nov 28 14:21:43.388827 [NOTICE] fpm_pctl_exit(), line 75: exiting, bye-bye!
+Nov 28 14:21:48.356196 [NOTICE] fpm_stdio_init_final(), line 50: error_log fd is 3  log level is 1
+Nov 28 14:21:48.356215 [NOTICE] fpm_unix_init_main(), line 281: getrlimit(nofile): max:10240, cur:10240
+Nov 28 14:21:48.356231 [NOTICE] fpm_env_conf_wp(), line 63: home:nginx user:/home/nginx 
+
+Nov 28 14:21:48.356259 [NOTICE] fpm_signals_init_main(), line 214: master process 3732 signals OK
+Nov 28 14:21:48.356309 [NOTICE] fpm_sockets_init_main(), line 379: master process 3732 is listening sockfd 6 
+Nov 28 14:21:48.356417 [NOTICE] fpm_event_init_main(), line 87: libevent: using epoll
+Nov 28 14:21:48.356469 [NOTICE] fpm_conf_write_pid(), line 469: master process 3732 write pid 3732 to file /usr/local/src/fpmcrowd/build/fpmcrowd.pid OK
+Nov 28 14:21:48.356481 [NOTICE] fpm_init(), line 49: fpm is running, pid 3732
+Nov 28 14:21:48.356997 [NOTICE] fpm_children_make(), line 355: child 3733 (pool default) started
+Nov 28 14:21:48.357496 [NOTICE] fpm_children_make(), line 355: child 3734 (pool default) started
+Nov 28 14:21:48.357530 [NOTICE] fpm_event_loop(), line 104: libevent: entering main loop
+Dec 01 09:33:28.827689 [WARNING] fpm_stdio_child_said(), line 160: child 3733 (pool default) said into stderr: "child '3733' is processing request."
+May 07 11:24:30.536259 [NOTICE] fpm_stdio_init_final(), line 50: error_log fd is 3  log level is 1
+May 07 11:24:30.542089 [NOTICE] fpm_unix_init_main(), line 281: getrlimit(nofile): max:10240, cur:10240
+May 07 11:24:30.542114 [NOTICE] fpm_env_conf_wp(), line 63: home:nginx user:/home/nginx 
+
+May 07 11:24:30.542147 [NOTICE] fpm_signals_init_main(), line 214: master process 5592 signals OK
+May 07 11:24:30.542206 [NOTICE] fpm_sockets_init_main(), line 379: master process 5592 is listening sockfd 6 
+May 07 11:24:30.542312 [NOTICE] fpm_event_init_main(), line 87: libevent: using epoll
+May 07 11:24:30.542380 [NOTICE] fpm_conf_write_pid(), line 469: master process 5592 write pid 5592 to file /usr/local/src/fpmcrowd/build/fpmcrowd.pid OK
+May 07 11:24:30.542394 [NOTICE] fpm_init(), line 49: fpm is running, pid 5592
+May 07 11:24:30.542650 [NOTICE] fpm_children_make(), line 355: child 5593 (pool default) started
+May 07 11:24:30.543165 [NOTICE] fpm_children_make(), line 355: child 5594 (pool default) started
+May 07 11:24:30.543197 [NOTICE] fpm_event_loop(), line 104: libevent: entering main loop
+May 07 11:25:05.637233 [NOTICE] sig_handler(), line 176: master process 5592 is receiving signal T
+May 07 11:25:05.637272 [NOTICE] fpm_got_signal(), line 54: received SIGTERM
+May 07 11:25:05.637284 [NOTICE] fpm_pctl(), line 253: master process controller is switching to 'terminating' state from 'normal' state
+May 07 11:25:05.637311 [NOTICE] fpm_pctl(), line 259: master process controller is processing next action by 'terminating' state
+May 07 11:25:05.637326 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 15 SIGTERM to child 5594 (pool default)
+May 07 11:25:05.637343 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 15 SIGTERM to child 5593 (pool default)
+May 07 11:25:05.637357 [NOTICE] fpm_pctl_kill_all(), line 177: 2 children are still alive
+May 07 11:25:05.637376 [NOTICE] fpm_pctl(), line 259: master process controller is processing next action by 'terminating' state
+May 07 11:25:05.637390 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 9 SIGKILL to child 5594 (pool default)
+May 07 11:25:05.637405 [NOTICE] fpm_pctl_kill_all(), line 168: sending signal 9 SIGKILL to child 5593 (pool default)
+May 07 11:25:05.637425 [NOTICE] sig_handler(), line 176: master process 5592 is receiving signal C
+May 07 11:25:05.637441 [NOTICE] fpm_pctl_kill_all(), line 177: 2 children are still alive
+May 07 11:25:05.637457 [NOTICE] fpm_got_signal(), line 46: received SIGCHLD
+May 07 11:25:05.637486 [WARNING] fpm_children_bury(), line 211: child 5593 (pool default) exited on signal 15 SIGTERM after 35.094855 seconds from start
+May 07 11:25:05.637509 [NOTICE] fpm_pctl_child_exited(), line 282: master process controller has 1 running children
+May 07 11:25:05.637529 [WARNING] fpm_children_bury(), line 211: child 5594 (pool default) exited on signal 15 SIGTERM after 35.094373 seconds from start
+May 07 11:25:05.637546 [NOTICE] fpm_pctl_child_exited(), line 282: master process controller has 0 running children
+May 07 11:25:05.637555 [NOTICE] fpm_pctl(), line 265: master process controller is processing last child process exited
+May 07 11:25:05.637568 [NOTICE] fpm_pctl_action_last(), line 129: master process controller is exited from state terminating 
+May 07 11:25:05.637578 [NOTICE] fpm_pctl_exit(), line 75: exiting, bye-bye!
